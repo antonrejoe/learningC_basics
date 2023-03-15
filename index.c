@@ -12,19 +12,8 @@
 int main(int argc, char const *argv[])
 {
     /* code */
-    float x, p;
-    double y, q;
-    unsigned k;
-
-    int m = 323232;
-    long int n = 23122;
-
-    x = 1.0;
-    y = 0.23232;
-    k = 0;
-    p = q = 0.0;
-
-    double angle = 15.55;
-
-    printf("Angle = %.2f degrees \n", angle);
+    int i = 0;
+    i = printf("abcde\n");
+    // look i is storing the value of the total number of characters it is going to print
+    printf("total characters printed %d\n", i);
 }
