@@ -16,7 +16,7 @@ int main(int argc, char const *argv[])
     c = 5 / 9;
     d = 5.0 / 9;
 
-        printf("%f\n", c); // 0.000000
+    printf("%f\n", c); // 0.000000
     printf("%d\n", c); // 198898336
     printf("%f\n", d); // 0.555556
     printf("%d\n", d); // 198898336
