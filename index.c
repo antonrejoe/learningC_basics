@@ -1,6 +1,6 @@
 
 #include <stdio.h>
-
+#include <stdbool.h>
 // int main()
 // {
 
@@ -11,16 +11,10 @@
 
 int main(int argc, char const *argv[])
 {
-    float c, d;
-
-    c = 5 / 9;
-    d = 5.0 / 9;
-
-    printf("%f\n", c); // 0.000000
-    printf("%d\n", c); // 198898336
-    printf("%f\n", d); // 0.555556
-    printf("%d\n", d); // 198898336
-
-    // for floating operation we need to have atleast one floating point number
-    // if 2 integers are present then integer operation is carried out
+    // relational operators
+    bool result;
+    int num1 = 5, num2 = 6;
+    result = convertBoolean((num1 < num2));
+    printf("Is %d < %d: %d\n", num1, num2, (num1 < num2)); // Is 5 < 6: 1
+    printf("Is %d < %d: %d\n", num1, num2, result);        // Is 5 < 6: 1
 }
